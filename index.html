@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+
+    <!-- style sheet link -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- fontawesome link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <!-- Navigation Bar -->
+    <div class="nav">
+
+        <div class="left">
+            <a href="/">
+                <i class="fa-solid fa-user"></i>
+                <span>Sohan Mondal</span>
+            </a>
+        </div>
+
+        <div class="right">
+            <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+                <i class="fa-brands fa-github"></i>
+                <span>Github</span>
+            </a>
+
+            <a href="https://in.linkedin.com/" target="_blank" rel="noopener noreferrer">
+                <i class="fa-brands fa-linkedin"></i>
+                <span>Linkedin</span>
+            </a>
+
+            <a href="mailto:sohanmondal428@gmail.com">
+                <i class="fa-solid fa-envelope"></i>
+                <span>Email</span>
+            </a>
+        </div>
+    </div>
+
+    <div class="main">
+        <!-- Section 1: Hero -->
+        <div id="profile" class="profile">
+            <div class="left">
+                <h1>Hello, I'm Sohan&#128075;</h1>
+                <p>I am a beginner web developer with a deep-rooted curiosity for computers that began in my
+                    childhood. Ever since I was a kid, I have been always fascinated by how websites and
+                    applications
+                    work behind the scenes, and this passion has naturally led me to learn frontend development. I
+                    enjoy
+                    crafting user-friendly and visually appealing web interfaces, combining creativity with coding
+                    skills using HTML, CSS, and JavaScript.</p>
+
+
+                <div class="links">
+                    <a href="#skills-section">
+                        <i class="fa-solid fa-code"></i>
+                        <span>Skills</span>
+                    </a>
+
+                    <a href="#testimony-section">
+                        <i class="fa-solid fa-feather"></i>
+                        <span>Testimony</span>
+                    </a>
+
+                    <a href="#contact-section">
+                        <i class="fa-solid fa-id-card"></i>
+                        <span>Contact</span>
+                    </a>
+                </div>
+            </div>
+
+            <div class="right">
+                <img src="Pictures/pfp.jpg" alt="Picture of Sohan Mondal">
+            </div>
+        </div>
+
+        <!-- Section 2: Skills -->
+        <div class="skills" id="skills-section">
+            <h1>Skills</h1>
+            <p>I’m a passionate web developer with a solid foundation in creating clean, responsive, and user-friendly
+                websites. I’ve learned the core web technologies — HTML for structure and content, CSS for styling and
+                layout — and am currently expanding my skills by learning JavaScript to bring interactivity and dynamic
+                functionality to my projects. My goal is to build visually appealing and efficient websites that deliver
+                meaningful user experiences</p>
+
+            <div class="cells">
+                <div class="cell">
+                    <img src="/Pictures/html-logo.webp" alt="HTML Logo">
+                    <span>HTML</span>
+                </div>
+
+                <div class="cell">
+                    <img src="/Pictures/css-logo.webp" alt="CSS Logo">
+                    <span>CSS</span>
+                </div>
+
+                <div class="cell">
+                    <img src="/Pictures/javascript-logo.webp" alt="JS Logo">
+                    <span>JavaScript</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- Section 3: Testimony -->
+        <div class="testimony" id="testimony-section">
+            <h1>Testimony</h1>
+
+            <div class="person">
+                <div class="details">
+                    <img src="Pictures/josh.jpg" alt="">
+
+                    <p>Aditya Ganesh</p>
+                </div>
+
+                <div class="text">
+                    <p>"I've known Sohan since we were kids growing up together, and it's been incredible to
+                        watch his journey. Even back then, Sohan had a natural curiosity and hunger for solving
+                        problems, always tinkering with computers and coding little projects. Now as a web developer,
+                        Sohan brings that same passion and creativity to every project he takes on. He's also
+                        thoughtful, dependable, and always willing to help others learn.
+                        It feels good to see a childhood friend turn their passion into something so impactful, and I
+                        can say with confidence he's someone you can trust to deliver outstanding work."</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Section 4: Contact -->
+        <div class="contact" id="contact-section">
+            <h1>Contact</h1>
+
+            <div class="group">
+                <div class="text">
+                    Feel free to reach out! If you have any questions, suggestions, or simply want to connect, please
+                    fill out the contact form below. I look forward to hearing from you and will do my best to get back
+                    to you promptly. Your message is important, and I'm here to assist you with any inquiries you may
+                    have.
+                </div>
+
+                <form>
+                    <label for="name">Name</label>
+                    <input type="text" id="name">
+
+                    <label for="email">Email</label>
+                    <input type="email" id="email">
+
+                    <label for="message">Message</label>
+                    <textarea id="message" rows="10" cols="30"></textarea>
+
+                    <button type="submit">Send Message</button>
+                </form>
+            </div>
+
+        </div>
+    </div>
+</body>
+
+</html>
